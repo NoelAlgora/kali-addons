@@ -25,6 +25,9 @@ apt install filezilla filezilla-common -y
 mkdir /usr/git-tools
 cd /usr/git-tools
 
+#	Script to update all git repos
+wget https://gist.githubusercontent.com/NoelAlgora/07992cbbd769d276a5b27e7ed5d216d0/raw/dd18cc2fec20eecd443ac872487ddb6111c6349f/update_repos.sh
+
 #	WORDLISTS
 git clone https://github.com/fuzzdb-project/fuzzdb.git
 ln -s fuzzdb /usr/share/wordlists/fuzzdb

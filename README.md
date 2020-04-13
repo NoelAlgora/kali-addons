@@ -2,6 +2,8 @@
 
 Script to set up a Kali VM with multiple tools and git repos.
 
+One liner to run it:
+``wget -qO - https://raw.githubusercontent.com/NoelAlgora/kali-addons/master/distro.sh | bash -``
 
 To list packages that you have installed on another VM so you can modify the script:
 
