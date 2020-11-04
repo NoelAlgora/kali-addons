@@ -11,7 +11,11 @@ apt install sublime-text \
 			gobuster \
 			seclists \
 			exiftool \
-			terminator -y
+			terminator \
+			testssl.sh \
+			exiftool \
+			python-pip python3-pip \
+			mingw-w64 gcc-multilib -y
 
 #	SMTP CLIENT
 apt install thunderbird -y
